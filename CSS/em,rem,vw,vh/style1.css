@@ -1,0 +1,69 @@
+/* em = multiple of parent
+    1em= 1 times of parent
+    2em=2 times of parent
+    3em= 3 itmes of parent
+     parent↓
+    ul{
+    font-size: 25px;    
+    }
+     child ↓      
+    li{
+    font-size: 2em;   font size doubles since 2em =2 times of parent
+    }
+  */
+
+
+
+
+  /* rem= multiple of root element, root element is HTML therefore multiple of HTML 
+
+ root element ↓
+   HTML{       
+font-size: 20px;
+ }
+    h2{
+        font-size: 2rem;  2 times size of root element (i.e. html) 
+    }
+        */
+  
+
+
+        /* vw= viewport width
+
+        h2{
+     font-size: 2vw;   2% of viewport width
+        } */
+
+
+
+
+        /* vh=viewport height
+        h2{
+            font-size: 8vh;  8% of viewport height
+        } */
+
+
+
+        /* percentage
+        li{
+            font-size: 50%;
+        } */
+
+
+
+        /* font family */
+        h1{
+            font-size: 60px;
+            font-weight:800;
+            font-style:oblique;
+           
+        }
+        h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:300 ;
+            font-style: italic;
+        }
+        li{
+            font-weight: bold;
+    font-style:oblique;
+        }

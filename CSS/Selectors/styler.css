@@ -1,0 +1,36 @@
+/* 
+     1) Element Selector (or Tag Selector) 
+
+  h1{
+     background-color: cadetblue; 
+     font-size: 50px;
+    }
+    ul{
+        background-color: chocolate;
+    }
+  
+    2) id selector: uses id which is unique for each element , # symbol is used
+    #first{
+       background-color: cornflowerblue; 
+    }
+     
+    #second{
+        text-align: center;
+    }
+
+    #third{
+        background-color:chocolate;
+    }
+    
+
+     3) Class Based selector 
+    .fourth{
+        background-color: darkgoldenrod;
+    }
+      
+
+  4) Group based selector 
+    h1,#third,.fourth{
+        background-color: darkcyan;
+    }
+   */
