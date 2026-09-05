@@ -1,0 +1,77 @@
+/* universal selector
+
+*{
+margin 0px;                it means to these two properties will be applied to each and every tag of html code
+padding 0px;
+
+
+*/
+
+h1{
+    
+    color: rgba(255, 255, 255, 0.959);
+    font-size: 30px;
+   font-weight: lighter;
+   font-style:italic;
+background-color:rgb(3, 42, 82);
+width: 160px;
+padding: 10px;
+border: solid rgb(145, 206, 191) 3px;
+border-radius: 10px;
+margin-left: 550px;
+
+}
+#h2{
+    margin-left: 50px;
+color: rgb(15, 1, 207); 
+font-style: italic;
+
+width: 110px;
+padding-bottom: 1px;
+border-bottom:  black solid 2px;
+}
+
+#Exercises{
+    font-size: 20px;
+    color:rgb(127, 4, 165);
+   font-weight: bold;
+   font-style: italic;
+    margin-left: 160px;
+    margin-bottom: 50px;
+ 
+}
+
+#diet{
+    font-style: italic;
+    color: rgb(15, 1, 207);
+    padding-bottom: 1px ;
+    width: 60px;
+    border-bottom: black solid 2px;
+    margin-left: 50px;
+}
+
+#veg{
+color: green;
+}
+
+.Vegfood{
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.food{
+    font-size: 20px;
+margin-left: 100px;
+font-weight: bold;
+font-style: italic;
+}
+
+#nonveg{
+    color: red;
+}
+.Nonvegfood{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
