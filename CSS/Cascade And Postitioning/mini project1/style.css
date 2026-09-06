@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#background{
+    background-color: yellow;
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+#main,#main3{
+height: 85px;
+width: 100px;
+background-color: rgb(0, 85, 131);
+}
+
+#main3{
+    position: absolute;
+    bottom: 0px;
+}
+
+
+#main2,#main4{
+    height: 85px;
+width: 170px;
+background-color: rgb(0, 85, 131);
+}
+#main2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#main4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

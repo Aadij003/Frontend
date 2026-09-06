@@ -1,0 +1,14 @@
+#main{
+    background-color: white;
+   height: 200px;
+   width: 300px;
+}
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
