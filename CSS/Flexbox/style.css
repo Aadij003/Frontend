@@ -1,0 +1,42 @@
+/* 
+there are two types of axis ,main axis and cross axis
+main axis is decided on the basis of flex direction, if flex direction is row then main axis is horizontal, if flex direction is column then main axis becomes vertical
+justify content works around main axis 
+align items works around cross axis
+*/
+
+#main{
+    height: 600px;
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+
+}
+
+#first{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 5px;
+ 
+    
+}
+#second{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+     margin: 5px;
+}
+#third{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+     margin: 5px;
+}
+#fourth{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+     margin: 5px;
+}
