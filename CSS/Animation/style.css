@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    body{
+        background-color: black;
+    }
+}#container{
+    padding: 20px;
+    position: relative;
+}
+#box{
+  height: 100px;
+  width: 100px;  
+  color: aqua;
+  font-size: 100px;
+  font-weight: bold;
+  font-style: italic;
+  animation-name: moving;
+  animation-duration: 1s;
+  position: absolute;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes moving {
+    from{
+  
+     top: 20px;
+ left: 20px;
+    }
+to{
+
+top: 20px;
+ left: 800px;
+}    
+}
