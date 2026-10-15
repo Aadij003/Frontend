@@ -71,3 +71,4 @@
 // server always responds and that response is marked as fulfilled, so any request made to server then server will always responds, even if server is not providing any information then also it will respond and that will also be marked as fulfilled but let's say if there is a problem from the client or requester side like internet issue or wrong url in these cases the problem is on the client side therefore we need to fix these errors from our side(client) therefore we use try and catch
 // reject condition only occurs when we are not able to connect to the server due to internet issue or wrong url , in these cases we are not able to reach to the server so the server can't respond and if server is not responding then it is the problem on client side which should be solved using try catch  
 
+// .then only runs when the server has responded , if promise is rejected due to reasons like network down or server down or dns down then we use catch to handle these errors
